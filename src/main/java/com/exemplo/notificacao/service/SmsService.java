@@ -4,8 +4,10 @@ import com.exemplo.notificacao.model.Pedido;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SmsService {
-    public void enviar(Pedido pedido) {
-        System.out.println("Enviando SMS para " + pedido.getCliente());
+public class SmsService implements Notificador {
+
+    @Override
+    public void notificar(Pedido pedido) {
+        System.out.println("📱 Enviando SMS para " + pedido.getCliente());
     }
 }
