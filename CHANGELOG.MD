@@ -12,7 +12,7 @@ O formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/)
 ### Modificado
 - Sem modificações
 
-## [1.1.0] - 2025/10/05
+## [1.1.0] - 2025/10/06
 
 ### Adicionado
 
